@@ -1,0 +1,58 @@
+body {
+	color: #ffff;
+	background-color: #0e0e0e;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 50px;
+	letter-spacing: 17px;
+}
+
+p {
+	text-align: center;
+	font-weight: 350;
+}
+
+ul {
+	font-weight: 200;
+}
+
+p,
+ul {
+	font-family: Montserrat;
+}
+
+img {
+	width: 30%;
+}
+
+button {
+	display: inline-block;
+	padding: 16px 20px;
+	border-radius: 25px;
+	border: 0;
+	background: #432a82;
+	color: #ffff;
+	font-size: 10px;
+	letter-spacing: 3px;
+
+	margin: 2%;
+	max-width: 200px;
+	cursor: pointer;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
